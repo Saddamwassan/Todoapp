@@ -5,7 +5,7 @@ addbtn.addEventListener("click",addTask);
 
 
 function addTask(){
-    if(inputText === ""){
+    if(inputText.value === ""){
         alert("Enter some value");
     }else{
         console.log("added");
