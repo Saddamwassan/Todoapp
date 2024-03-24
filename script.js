@@ -8,7 +8,6 @@ function addTask(){
     if(inputText.value === ""){
         alert("Enter some value");
     }else{
-        console.log("added");
         let li = document.createElement("li");
         li.innerHTML = inputText.value;
         ul.appendChild(li);
